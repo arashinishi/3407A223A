@@ -1,0 +1,26 @@
+
+<div class="page-header">
+  <h1>User list</h1>
+</div>
+<table class="table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Username</th>
+      <th>Password</th>
+      <th>iid</th>
+    </tr>
+  </thead>
+  <tbody>
+    <%User.all.each do |u|%>
+    <tr>
+      <th scope="row"> <%= u.id%> </th>
+      <td><%= u.username%></td>
+      <td><%= u.password%></td>
+      <td><%= u.iid%></td>
+    </tr>
+    <%end%>
+  </tbody>
+</table>
+<%# User.delete_all() %>
+<%# u = User.create({username: "username", password: "password", iid: "iid23123"})%>
