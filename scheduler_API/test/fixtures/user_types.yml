@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: MyText
+  shortname: MyString
+  can_create: false
+  can_read: false
+  can_edit: false
+  admin: false
+
+two:
+  description: MyText
+  shortname: MyString
+  can_create: false
+  can_read: false
+  can_edit: false
+  admin: false

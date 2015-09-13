@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  reason: MyText
+  from: 2015-09-13 18:11:50
+  to: 2015-09-13 18:11:50
+
+two:
+  reason: MyText
+  from: 2015-09-13 18:11:50
+  to: 2015-09-13 18:11:50
