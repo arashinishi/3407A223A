@@ -5,7 +5,7 @@ class UsersController < ApplicationController
       begin
         target = User.find(params[:id])
         respond_to do |format|
-          format.html
+          format.html {render json:User.all}
           format.json {render json:User.find(params[:id])}
           format.xml {render xml:User.find(params[:id])}
         end
@@ -14,7 +14,7 @@ class UsersController < ApplicationController
       end
     else
         respond_to do |format|
-          format.html
+          format.html {render json:User.all}
           format.json {render json:User.all}
           format.xml {render xml:User.all}
         end
