@@ -17,7 +17,9 @@ La carpeta misc contiene diagramas y demases para apoyar el desarrollo
 
 # Base de datos
 ---------------
-La carpeta db contiene el diseño de base de datos y el código .java que permite la implementación de la base de datos utilizando SQLite
+La carpeta db contiene el diseño de base de datos y el código .java que permite la implementación de la base de datos utilizando SQLite. 
+
+Primera versión diagrama E/R http://puu.sh/krKmh/86c9bfbd1d.jpg
 
 # Servicio web
 --------------
